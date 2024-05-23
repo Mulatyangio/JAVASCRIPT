@@ -19,6 +19,23 @@ console.log(PI * 2);//6.284
 
 
 //passing by reference vs passing by value(CS)
-//variable naming rules in Javascript--variables in javascript are case sensitive
+//variable naming rules in Javascript--
+/**
+*variables in javascript are case sensitive 
+*names can't start with a number
+*names can start with letters,_(underscore)or dollarsign
+*names can contain letters, numbers, underscores or dollarsign
+*names can't have spaces
+*names can't be reserved keywords(let const var function this)
+
+*/
 //variable naming conventions( CS )
-//What is an API?
+/**
+ * Names should be meaningful/descriptive - makes code readable and easy to maintain
+ * Do not use the same name for a variable and a function within the same scope
+ * naming styles/notations-> camelCaseNotation, PascalCaseNotation, snake_case_notation, kebab-case-notation
+ *
+ */
+//What is an API
+//objects(arrays) are called by reference 
+//primitives(strings, numbers, boolean) are called by value

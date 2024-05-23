@@ -1,1 +1,3 @@
-console.log("hello world!!")
+function newWay(){
+    console.log("hello there")
+}
