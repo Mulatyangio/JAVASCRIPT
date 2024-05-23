@@ -39,3 +39,18 @@ console.log(PI * 2);//6.284
 //What is an API
 //objects(arrays) are called by reference 
 //primitives(strings, numbers, boolean) are called by value
+
+
+/*declaring a function  : there are three ways of declaring a function:
+function declaration:function name, parameters<function body> accessed at a global level
+function expression: a function declared and stored in a variable: classes,local scope
+arrow function:for ease and expertise accessibility
+
+
+*/
+//function declaration
+//void function
+function getName(){
+    return("john","mwangi")
+}
+
