@@ -125,6 +125,3 @@ const people = [
 
   console.log(sortedAge);
  
-
-
-  console.log(hospital.department.emergency);
