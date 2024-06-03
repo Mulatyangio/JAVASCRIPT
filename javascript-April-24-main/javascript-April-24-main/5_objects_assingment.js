@@ -38,9 +38,10 @@ const hospital = {
   // Test 1: Access the name of the hospital
   console.log( hospital.name);
   // Test 2: Access the street address of the hospital
-
+  console.log(hospital.address.street);
   // Test 3: Access the name of the head doctor of the Emergency department
-
+  console.log(hospital.departments[0].headDoctor.name);
   // Test 4: Access the email of the hospital
-  
+  console.log(hospital.contactInfo.email);
   // Test 5: Access the specialty of the head doctor of the Pediatrics department
+console.log(hospital.departments[1].headDoctor.specialty);
